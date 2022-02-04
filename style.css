@@ -1,0 +1,48 @@
+#picture {
+    width: 200px;
+    border-radius: 50%;
+}
+
+body {
+    text-align: center;
+    padding-top: 900px;
+    
+}
+
+#welcome {
+    position: absolute;
+    height: 950px;
+    width: 100%;
+    top: 0;
+    bottom:0;
+    background: linear-gradient(#c978ff 0%, #9900ff, #4d00db 100%);
+    display: table;
+}
+
+.welcome-inner {
+    vertical-align: middle;
+    position:relative;
+    display: table-cell;
+    
+}
+
+#text {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+#bio {
+    font-size: 30px;
+    padding: 50px;
+}
+
+.line {
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin: 4px auto;
+}
+
+h1 {
+    font-size: 60px;
+}
